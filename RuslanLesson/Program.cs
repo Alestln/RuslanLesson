@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("My name is Alex.");
+            // Однострочный комментарий
+
+            /* Многострочный комментарий
+               Продолжение многострочного комментария */
+
+            Console.WriteLine("Hello World!");
+            Console.WriteLine();
+            Console.Write("Hello, dear Maria!\nHello, dear\tAlice!");
         }
     }
 }
