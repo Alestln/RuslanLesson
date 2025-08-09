@@ -33,7 +33,7 @@
              */
 
             // Ввод данных с консоли
-            Console.Write("Введите ваше имя: "); // Вывод приглашения для ввода данных
+            Console.Write("\nВведите ваше имя: "); // Вывод приглашения для ввода данных
             string name = Console.ReadLine(); // Чтение строки, введенной пользователем
 
             Console.Write("Введите ваш возраст: ");
@@ -48,7 +48,7 @@
             // 2 способ: использование метода Convert.ToInt32
             // int age = Convert.ToInt32(Console.ReadLine()); // Преобразование строки, введенной пользователем, в целое число с помощью метода Convert
 
-            Console.WriteLine($"Ваше имя: {name}");
+            Console.WriteLine($"\n\nВаше имя: {name}");
             Console.WriteLine($"Ваш возраст: {age}");
         }
     }
