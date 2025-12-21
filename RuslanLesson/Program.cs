@@ -117,6 +117,9 @@
             {
                 Console.WriteLine("Not a leap year.");
             }
+
+            // Генерация случайного числа от 1 до 4 включительно
+            // int randomNumber = Random.Shared.Next(1, 5);
         }
     }
 }
